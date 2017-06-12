@@ -1,5 +1,7 @@
 {
-  "name": "rauchg-blog-views",
+  "name": "cwonrails-blog-views",
+  "repository": "cwonrails/blog-views",
+  "license": "MIT",
   "dependencies": {
     "firebase": "^4.1.2",
     "firebase-admin": "^5.0.0",
@@ -15,6 +17,10 @@
     ]
   },
   "scripts": {
+    "lint": "standard --fix *.js",
     "start": "micro"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2"
   }
 }
